@@ -1,15 +1,23 @@
-import { Link } from "react-router-dom";
-import "./Header.css";
+//import { Link } from "react-router-dom";
+
 function Header(props) {
   return (
-    <nav>
-      
-        <Link to="/">Home</Link>
-        <Link to="/portfolio">Portfolio</Link>
-        <Link to="/#contact">Contact Me</Link>
-        <Link to="/dummy">Dummy</Link>
-   
-    </nav>
+    <nav className="navbar navbar-expand-lg navbar-light bg-dark">
+  <a className="navbar-brand" href="#d">Welcome</a>
+  <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+    <span className="navbar-toggler-icon"></span>
+  </button>
+  
+  <div class="collapse navbar-collapse" id="navbarTogglerDemo03">
+    <ul class="navbar-nav mr-auto mt-2 mt-lg-0">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+  </div>
+</nav>
   );
 }
 

@@ -1,5 +1,5 @@
 /* The navigation bar */
-nav {
+  nav {
     overflow: hidden;
     background-color:  rgb(21, 59, 38);
     position: fixed; /* Set the navbar to fixed position */

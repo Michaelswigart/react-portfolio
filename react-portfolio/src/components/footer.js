@@ -1,24 +1,15 @@
-function Footer(props) {
-    return (
-        <footer id='contact'>
-            <h3>Contact Me</h3>
-            <ul>
-                <li></li>
-                <li></li>
-                <li><a href="no photo" download style={{color: 'white'}}> Download my Resume</a></li>
-                <li>
-                    <a href  = "no photo">
-                        <img src = "github.webp" width = "70" height = "70" alt="" />
-                    </a>
-                </li>
-                <li>
-                    <a href = "no photo">
-                        <img src = "linked-in.webp" width="70" height="70" alt="" />
-                    </a>
-                </li>
-            </ul>
+import React from "react";
+const Footer = ()=> {
+    
+      return (
+          <>
+  
+        <footer>
+          <nav className="navbar navbar-dark bg-dark fixed-bottom"><a className="navbar-brand" href="https://www.facebook.com/alex.swigart.98"><img src="https://cdn2.iconfinder.com/data/icons/social-media-applications/64/social_media_applications_1-facebook-512.png" width="32px" alt="" />Welcome</a></nav>
         </footer>
-    );
-}
+      </>
+        );
+    
+  };
   
   export default Footer;
